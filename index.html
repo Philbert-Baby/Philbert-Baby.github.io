@@ -2,11 +2,23 @@
 
 <html>
 	<head>
-		<title>Philbert Baby Portfolio</title>
+		<title>Philbert Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="icon" type="image/png" href="images/WebPage Logo.png" /> 
+
+		<head>
+			<style>
+			  .image.fit img {
+				max-height: 300px;
+				object-fit: cover;
+				width: 100%;
+			  }
+			</style>
+		  </head>
+	
 	</head>
 	<body class="is-preload">
 
@@ -17,8 +29,8 @@
 					<div id="intro">
 						<h2>Portfolio <br/>of<br /></h2>
 						<h1>Philbert Baby</h1>
-						<p>A Data analyst skilled in SQL, Python, Excel<br />
-						PowerBI and Tableau. </p>
+						<p>A Data Analyst skilled in SQL, Python, Excel, PowerBI and Tableau <br />
+							Constantly Striving for Learning & Improvement. </p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
@@ -26,7 +38,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo">Data Analyst</a>
+						<a class="logo">Data Analyst</a>
 					</header>
 
 				<!-- Nav -->
@@ -48,15 +60,15 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<h2><a href="#">Find out more about<br />
-									Me</a></h2>
+									<h2><a>View My Projects<br />
+									</a></h2>
 									<p>A highly motivated and dedicated Data Analyst at Step5, leveraging analytical expertise and AI proficiency to uncover 
 										valuable insights from complex datasets. A First-Class Honours graduate in Computer Science with Artificial Intelligence, 
 										recognised for academic excellence and proficiency of multiple programming languages.</p>
 								</header>
-								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
+								<a class="image main"><img src="images/AboutMe.jpg" alt="" /></a>
 								<ul class="actions special">
-									<li><a href="#" class="button large">About Me</a></li>
+									<li><a href="about.html" class="button large">About Me</a></li>
 								</ul>
 							</article>
 
@@ -64,13 +76,14 @@
 							<section class="posts">
 								<article>
 									<header>
-										<h2><a href="#">Project 1<br /></a></h2>
-										Brief Description</a></h3>
+										<h2>Power BI<br /></a></h2>
+										What affects Attrition? HR Analytics Dashboard</a></h3>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Insert Description</p>
+									<a class="image fit"><img src="images/PowerBi_HRAnalytics.jpg" alt="" /></a>
+									<p>This HR Analytics dashboard highlights attrition patterns across roles, age groups, and salaries. Higher attrition is seen among younger, lower-paid employees in technical roles. Targeted retention strategies could help reduce turnover.
+									</p>
 									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
+										<li><a href="https://github.com/Philbert-Baby/Power_BI" class="button">View Dashboard</a></li>
 									</ul>
 								</article>
 								<article>
@@ -78,32 +91,32 @@
 										<h2>Tableau</h2>
 											Who Runs The World? Billionaire Insights Dashboard </a></h3>
 									</header>
-									<a href="https://public.tableau.com/app/profile/philbert.baby/viz/WhoRunsTheWorldBillionaireInsightsDashboard/DashboardFinal" target="_blank" class="image fit"><img src="images/Tableau Billionaire Dashboard.png" alt="" /></a>
-									<p>Insert Description</p>
+									<a target="_blank" class="image fit"><img src="images/Tableau_Billionaire.jpg" alt="" /></a>
+									<p>This Billionaire Insights dashboard explores global wealth trends, demographics, and industries from 1997 to 2024. Key patterns show rising billionaire counts, male dominance, and tech as a leading industry. The data supports conversations on inequality, innovation, and opportunity.</p>
 									<ul class="actions special">
 										<li><a href="https://public.tableau.com/app/profile/philbert.baby/viz/WhoRunsTheWorldBillionaireInsightsDashboard/DashboardFinal" target="_blank" class="button">View Dashboard</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
-										<h2><a href="#">Project 3<br /></a></h2>
-										Brief Description</a></h3>
+										<h2>Project 3<br /></a></h2>
+										Project in Progress</a></h3>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Insert Description</p>
+									<a class="image fit"><img src="images/Placeholder.jpg" alt="" /></a>
+									<p>Stay Tuned!</p>
 									<ul class="actions special">
-										<li><a href="#" target="_blank" class="button">Full Story</a></li>
+										<li><a href="#" target="_blank" class="button">View Project</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
-										<h2><a href="#">Project 4<br /></a></h2>
-										Brief Description</a></h3>
+										<h2>Project 4<br /></a></h2>
+										Project in Progress</a></h3>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Insert Description</p>
+									<a class="image fit"><img src="images/Placeholder.jpg" alt="" /></a>
+									<p>Stay Tuned!</p>
 									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
+										<li><a href="#" target="_blank" class="button">View Project</a></li>
 									</ul>
 								</article>
 							</section>
@@ -112,25 +125,64 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<form method="post" action="#">
+							<h2 style="text-align: center; margin-bottom: 1em;">Contact Me</h2>
+
+							<form id="contact-form" action="https://formsubmit.co/philbert.mathew@hotmail.com" method="POST">
 								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
+								  <div class="field">
+									<label for="name">Name</label>
+									<input type="text" name="name" id="name" required>
+								  </div>
+								  <div class="field">
+									<label for="email">Email</label>
+									<input type="email" name="email" id="email" required>
+								  </div>
+								  <div class="field">
+									<label for="message">Message</label>
+									<textarea name="message" id="message" rows="3" required></textarea>
+								  </div>
 								</div>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
+								  <li><input type="submit" value="Send Message"></li>
 								</ul>
-							</form>
+							  
+								<!-- Hide CAPTCHA -->
+								<input type="hidden" name="_captcha" value="false">
+							  </form>
+							  
+							  <!-- Thank you message (hidden by default) -->
+							  <div id="thank-you-message" style="display:none; padding-top: 1em;">
+								<p><strong>Message sent. Thank you! I'll get back to you ASAP!</strong></p>
+							  </div>
+							  
+							  <script>
+								const form = document.getElementById('contact-form');
+								const thankYou = document.getElementById('thank-you-message');
+							  
+								form.addEventListener('submit', function (e) {
+								  e.preventDefault(); // Stop default form submit behavior
+							  
+								  const formData = new FormData(form);
+							  
+								  fetch(form.action, {
+									method: "POST",
+									body: formData,
+									headers: {
+									  'Accept': 'application/json'
+									}
+								  }).then(response => {
+									if (response.ok) {
+									  form.reset();                // Clear the form
+									  form.style.display = 'none'; // Hide the form
+									  thankYou.style.display = 'block'; // Show thank-you message
+									} else {
+									  alert("Oops! Something went wrong.");
+									}
+								  });
+								});
+							  </script>
+							  
+							  
 						</section>
 						<section class="split contact">
 							<section class="alt">
@@ -143,7 +195,7 @@
 							</section>
 							<section>
 								<h3>Email</h3>
-								<p><a href="mailto:philbert.mathew@hotmail.com" target="_blank"></a></p>
+								<p>philbert.mathew@hotmail.com</p>
 							</section>
 							<section>
 								<h3>Social</h3>
